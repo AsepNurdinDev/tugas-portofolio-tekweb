@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Custom stylesheet — small additions on top of Tailwind utility classes.
+   Keep this file minimal; almost everything is handled by Tailwind (CDN).
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Custom slim scrollbar used inside the project detail modal */
+.CustomScrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.CustomScrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.CustomScrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(99, 102, 241, 0.35);
+  border-radius: 999px;
+}
+.CustomScrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(99, 102, 241, 0.35) transparent;
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

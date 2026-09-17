@@ -1,0 +1,88 @@
+// Data proyek portofolio.
+// Dipisah dari komponen render agar mudah ditambah/di-update tanpa menyentuh markup.
+export const projectsData = [
+  {
+    img: "assets/img/project/cv.dwijayengabadi.png",
+    title: "CV Dwijayeng Abadi Profile",
+    desc: "Platform company profile premium untuk perusahaan supplier logistik pangan skala besar (Telur, Beras, Minyak, & LPG) dengan optimasi performa tinggi.",
+    tech: ["Next.js", "TailwindCSS", "JavaScript", "SEO"],
+    link: "https://www.dwijaabadi.com/",
+  },
+  {
+    img: "assets/img/project/livingpork.png",
+    title: "Living Pork",
+    desc: "Ekosistem web kompleks untuk Living Pork, supplier daging babi segar di Bali. Memadukan identitas korporat, sistem katalog ritel interaktif dengan WhatsApp Checkout instan, serta mesin portal artikel (CMS) untuk strategi inbound marketing.",
+    tech: ["Next.js", "TailwindCSS", "TypeScript", "SEO"],
+    link: "https://www.livingpork.com/",
+  },
+  {
+    img: "assets/img/project/2.png",
+    title: "Interactive Coding Course Platform",
+    desc: "Aplikasi platform manajemen pembelajaran kursus coding online, dilengkapi arsitektur RESTful API yang aman dan manajemen basis data relasional.",
+    tech: ["React.js", "Express.js", "TailwindCSS", "MySQL"],
+    link: "#",
+  },
+  {
+    img: "assets/img/project/4.png",
+    title: "Point of Sales (POS) Culinary System",
+    desc: "Sistem kasir berbasis web real-time untuk optimalisasi manajemen pesanan pelanggan, pencatatan transaksi kas, dan rekapitulasi keuangan.",
+    tech: ["HTML5", "TailwindCSS", "JavaScript ESM"],
+    link: "#",
+  },
+  {
+    img: "assets/img/project/3.png",
+    title: "E-Commerce Hijab Aulia Integration",
+    desc: "Sistem toko online hijab modern terintegrasi katalog dinamis, sistem manajemen konten, dan fitur tutorial interaktif.",
+    tech: ["PHP", "TailwindCSS", "MySQL Infrastructure"],
+    link: "#",
+  },
+  {
+    img: "assets/img/project/elhaza.png",
+    title: "Elhazastore (E-Commerce Korset Kesehatan)",
+    desc: "Landing page & katalog produk interaktif untuk toko e-commerce korset kesehatan pinggang ergonomis. Dibangun menggunakan Next.js App Router dan Tailwind CSS dengan fitur ulasan pembeli terverifikasi, panduan ukuran, serta integrasi pemesanan langsung via WhatsApp.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
+    link: "https://elhazastore.com",
+  },
+  {
+    img: "assets/img/project/sudutlawass.png",
+    title: "Sudutlawas (Toko Online Apparel Harley)",
+    desc: "Platform toko online e-commerce yang menjual pakaian, aksesori, dan perlengkapan bernuansa klasik/vintage khusus penggemar Harley-Davidson. Dibangun dengan PHP Laravel dan Laravel Breeze untuk autentikasi sistem yang aman, serta dikemas dengan tampilan UI kustom menggunakan Tailwind CSS.",
+    tech: ["PHP", "Laravel", "Laravel Breeze", "Tailwind CSS", "MySQL"],
+    link: "https://sudutlawas.com",
+  },
+  {
+    img: "assets/img/project/uhamka.png",
+    title: "Uhamka Agrovision: Peternakan Domba Modern Jonggol",
+    desc: "Landing page interaktif untuk manajemen distribusi domba jantan berkualitas langsung dari kandang Jonggol. Dilengkapi katalog harga transparan berdasarkan bobot riil (Dugul & Tanduk), pengelompokan varian tipe berat badan, serta fitur konversi order instan ke admin penjualan.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
+    link: "https://uhamka-agrovision.vercel.app/",
+  },
+  {
+    img: "assets/img/project/mahakaryadigital.png",
+    title: "Mahakarya Digital",
+    desc: "Mahakarya Digital hadir sebagai studio rekayasa piranti lunak (software house) independen yang berdedikasi menjadi katalis utama transformasi digital bagi para pelaku usaha, UMKM, hingga korporasi di Indonesia. Kami percaya bahwa setiap entitas bisnis berhak memiliki infrastruktur digital yang kokoh, eksklusif, dan andal di pasar global. Melalui komitmen rekayasa kode yang presisi, kami siap memanifestasikan platform terbaik untuk bisnis Anda.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
+    link: "#",
+  },
+  {
+    img: "assets/img/project/auth.png",
+    title: "Authentication Service with Google OAuth",
+    desc: "Authentication Service berbasis Golang dengan Google OAuth 2.0 untuk autentikasi pihak ketiga. Sistem menghasilkan JWT (access & refresh token) untuk session management yang aman. Redis digunakan sebagai session store untuk meningkatkan performa, sementara PostgreSQL menyimpan data user. Dirancang sebagai auth service terpisah agar scalable dan dapat digunakan oleh multiple service (SSO-like) dalam arsitektur microservices.",
+    tech: ["Golang", "JWT", "OAuth2", "PostgreSQL", "Redis"],
+    link: "https://github.com/AsepNurdinDev/auth-server",
+  },
+  {
+    img: "assets/img/project/microservices.png",
+    title: "Microservices Application (Production-Oriented)",
+    desc: "Microservices App berbasis Golang dengan clean architecture dan pendekatan DevOps. Request masuk melalui Nginx (TLS, rate limiting) lalu diteruskan ke Gateway Service untuk validasi JWT dan routing ke Auth Service (PostgreSQL) dan Article Service (MongoDB). Redis digunakan untuk caching/session. Monitoring menggunakan Prometheus & Grafana, serta CI/CD otomatis via GitHub Actions. Dirancang scalable, secure, dan siap production.",
+    tech: ["Golang", "MongoDB", "PostgreSQL", "JWT", "Docker", "Nginx", "Prometheus"],
+    link: "https://github.com/AsepNurdinDev/microservice-app",
+  },
+  {
+    img: "assets/img/project/blog.png",
+    title: "Catatan Programmer (Blog)",
+    desc: "Sebuah blog pribadi yang dibangun full-stack dengan Golang sebagai backend, Next.JS sebagai frontend, dan MySQL sebagai database. Dilengkapi dengan Cloudflare Tunnel untuk eksposur jaringan yang aman serta JWT Authentication.",
+    tech: ["Go", "Next.js", "MySQL", "Docker", "Cloudflare", "JWT"],
+    link: "https://asepblog.my.id/",
+  },
+];
