@@ -62,7 +62,7 @@ export const projectsData = [
     title: "Mahakarya Digital",
     desc: "Mahakarya Digital hadir sebagai studio rekayasa piranti lunak (software house) independen yang berdedikasi menjadi katalis utama transformasi digital bagi para pelaku usaha, UMKM, hingga korporasi di Indonesia. Kami percaya bahwa setiap entitas bisnis berhak memiliki infrastruktur digital yang kokoh, eksklusif, dan andal di pasar global. Melalui komitmen rekayasa kode yang presisi, kami siap memanifestasikan platform terbaik untuk bisnis Anda.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
-    link: "#",
+    link: "https://www.mahakaryadigital.com/",
   },
   {
     img: "assets/img/project/auth.png",
@@ -83,6 +83,6 @@ export const projectsData = [
     title: "Catatan Programmer (Blog)",
     desc: "Sebuah blog pribadi yang dibangun full-stack dengan Golang sebagai backend, Next.JS sebagai frontend, dan MySQL sebagai database. Dilengkapi dengan Cloudflare Tunnel untuk eksposur jaringan yang aman serta JWT Authentication.",
     tech: ["Go", "Next.js", "MySQL", "Docker", "Cloudflare", "JWT"],
-    link: "https://asepblog.my.id/",
+    link: "https://asepblog.online/",
   },
 ];
