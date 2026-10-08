@@ -85,4 +85,11 @@ export const projectsData = [
     tech: ["Go", "Next.js", "MySQL", "Docker", "Cloudflare", "JWT"],
     link: "https://asepblog.online/",
   },
+  {
+    img: "assets/img/project/lms-react.png",
+    title: "Project React Basic LMS",
+    desc: "Project React Basic LMS",
+    tech: ["React.JS", "TailwindCSS",],
+    link: "https://react-lms-khaki.vercel.app/",
+  },
 ];
